@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: lightgreen;
+    box-sizing:border-box;
+}
+
+
+#maze {
+        display: flex;
+        flex-wrap: wrap;
+        width: 420px; 
+        background-color: white;
+        
+        
+}
+
+.Ws {
+    height: 20px;
+    width: 20px;
+    background-color: skyblue;
+}
+
+.Paths {
+    height: 20px;
+    width: 20px;
+    background-color:white;
+}
+
+.sPoint {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+
+#runner {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#win {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
